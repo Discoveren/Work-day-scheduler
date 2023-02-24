@@ -2,23 +2,25 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 textarea {
-  background: transparent;
+  background-color: #fff;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: #333;
+  border-left: 1px solid #ddd;
   padding: 10px;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color: #06aed5;
+  color: #fff;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid #333;
 }
 
 .description {
@@ -33,39 +35,40 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
+  border-top: 1px solid #ddd;
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: #fff;
+  color: #333;
+  border-top: 1px dashed #ddd;
 }
 
 .past {
-  background-color: #d3d3d3;
-  color: white;
+  background-color: #f5f5f5;
+  color: #333;
 }
 
 .present {
-  background-color: #ff6961;
-  color: white;
+  background-color: #06aed5;
+  color: #fff;
 }
 
 .future {
-  background-color: #77dd77;
-  color: white;
+  background-color: #fff;
+  color: #333;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid #ddd;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: #333;
+  color: #fff;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+  color: #06aed5;
 }
